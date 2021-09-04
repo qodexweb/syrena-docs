@@ -1,0 +1,175 @@
+<!doctype html>
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+
+	<title>Qodex Syrena - Shopify theme in framework 4.0</title>
+
+	<meta name="description" content="Apollo Guidance
+Shopify Responsive Theme - Userguide
+
+
+Created: 04/09/2021
+Latest update: 04/09/2021
+By: Apollotheme
+THANK YOU FOR PURCHASING OUR THEME!
+
+Here are some basics on installing, configuring and customizing the Shopify theme in our framework,
+
+BEFORE WE GO
+The theme and the sample data is provided as is. Customizing code and other design related issues can be done as freelance work on a $50-100 hourly rate only with Paypal and/or Skrill, if this theme available. If you are new to Shopify, please understand we cannot fix your site for free. Apollotheme would love to help everyone but there is no time. I suggest reading documentation available online regarding using Shopify, server requirements, etc.
+
+If you like this theme please rate it.
+
+Have a wonderful rest of your day!
+
+Apollotheme Team
+">
+	<meta name="author" content="Apollotheme">
+	<meta name="copyright" content="Apollotheme">
+	<meta name="generator" content="Documenter v2.0 https://evp.to/documenter">
+	<meta name="date" content="2020-03-17T00:00:00+01:00">
+
+	<link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
+	<link rel="icon" href="../assets/images/favicon.png" type="image/x-icon">
+	
+	assets\images
+	<script src="assets/js/jquery.js"></script>
+	
+	<script src="assets/js/jquery.scrollTo.js"></script>
+	<script src="assets/js/jquery.easing.js"></script>
+
+	<script>document.createElement('section');var duration='500',easing='swing';</script>
+	<script src="assets/js/script.js"></script>
+
+	<style>
+		html{background-color:#ECECEC;color:#363636;}
+		::-moz-selection{background:#363636;color:#00DFFC;}
+		::selection{background:#363636;color:#00DFFC;}
+		#documenter_sidebar #documenter_logo{background-image:url(http://apollotheme.com/guides/shopify/non-english-character-megamenu/assets/images/logo.png);}
+		a{color:#00AEC5;}
+		.btn {
+			border-radius:3px;
+		}
+		.btn-primary {
+			  background-image: -moz-linear-gradient(top, #00DFFC, #00DFFC);
+			  background-image: -ms-linear-gradient(top, #00DFFC, #00DFFC);
+			  background-image: -webkit-gradient(linear, 0 0, 0 00DFFC%, from(#363636), to(#00DFFC));
+			  background-image: -webkit-linear-gradient(top, #00DFFC, #00DFFC);
+			  background-image: -o-linear-gradient(top, #00DFFC, #00DFFC);
+			  background-image: linear-gradient(top, #00DFFC, #00DFFC);
+			  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00DFFC', endColorstr='#00DFFC', GradientType=0);
+			  border-color: #00DFFC #00DFFC #bfbfbf;
+			  color:#363636;
+		}
+		.btn-primary:hover,
+		.btn-primary:active,
+		.btn-primary.active,
+		.btn-primary.disabled,
+		.btn-primary[disabled] {
+		  border-color: #00DFFC #00DFFC #bfbfbf;
+		  background-color: #00DFFC;
+		}
+		hr{border-top:1px solid #BDBDBD;border-bottom:1px solid #FFFFFF;}
+		#documenter_sidebar, #documenter_sidebar ul a{background-color:#363636;color:#FFFFFF;}
+		#documenter_sidebar ul a{-webkit-text-shadow:1px 1px 0px #575757;-moz-text-shadow:1px 1px 0px #575757;text-shadow:1px 1px 0px #575757;}
+		#documenter_sidebar ul{border-top:1px solid #242424;}
+		#documenter_sidebar ul a{border-top:1px solid #575757;border-bottom:1px solid #242424;color:#FFFDFD;}
+		#documenter_sidebar ul a:hover{background:#363636;color:#00DFFC;border-top:1px solid #363636;}
+		#documenter_sidebar ul a.current{background:#363636;color:#00DFFC;border-top:1px solid #363636;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+
+</head>
+<body class="documenter-project-apollo-guidance-shopify-theme-in-framework-40">
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo"></a>
+		<ul id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">Start</a></li>
+				
+			<li><a href="#install_theme_import_demo_data" title="Install theme & import demo data">Install theme & import demo data</a></li>
+			<li><a href="#setup_store" title="Setup store">Setup store</a></li>
+			<li><a href="#general_settings" title="General settings">General settings</a></li>
+			<li><a href="#header_megamenu" title="Header & megamenu">Header & megamenu</a></li>
+			<li><a href="#homepage_footer" title="Homepage & footer">Homepage & footer</a></li>
+			<li><a href="#upsell_cross_selling" title="Upsell & Cross-selling">Upsell & Cross-selling</a></li>
+			<li><a href="#product_page_metafield" title="Product page & metafield">Product page & metafield</a></li>
+			<li><a href="#collection_page_filter" title="Collection page & filter">Collection page & filter</a></li>
+			<li><a href="#blog_article" title="Blog & article">Blog & article</a></li>
+
+		</ul>
+		<div id="documenter_copyright">Copyright Apollotheme 2020<br>
+		made with the <a href="https://evp.to/documenter">Documenter v2.0</a>
+		</div>
+	</div>
+	<div id="documenter_content">
+	<section id="documenter_cover">
+	<h1>Apollo guidance - Shopify theme in framework 4.0</h1>
+	
+	<div id="documenter_buttons">
+		
+	</div>
+	<hr>
+	<ul>
+	<li>created: 04/09/2021</li>
+	<li>latest update: 04/09/2021</li>
+	<li>Framework Developed by: Apollotheme</li>
+	<li>Theme Designer: Qodex</li>
+	<li>Contact by mail: <a href="mailto:qodexweb@gmail.com">Quick Support Mail</a></li>
+	<li><a href=""></a></li>
+	
+	</ul>
+	<p>Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form here. Thanks so much!</p>
+	</section>
+
+	<section id="install_theme_import_demo_data">
+	<div class="page-header"><h3>Install theme & import demo data</h3><hr class="notop"></div>
+<p>
+	<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/bk254fMFDXM" width="560"></iframe>
+</p>
+</section>
+<section id="setup_store">
+	<div class="page-header"><h3>Setup store</h3><hr class="notop"></div>
+<p>
+	<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/722MpT3i_m0" width="560"></iframe>
+</p>
+<p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AdC90MF7GGc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p></section>
+<section id="general_settings">
+	<div class="page-header"><h3>General settings</h3><hr class="notop"></div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/e25PuY8GvSk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></section>
+<section id="header_megamenu">
+	<div class="page-header"><h3>Header & megamenu</h3><hr class="notop"></div>
+<p>
+	<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/5XWYnrHKJKY" width="560"></iframe></p>
+</section>
+<section id="homepage_footer">
+	<div class="page-header"><h3>Homepage & footer</h3><hr class="notop"></div>
+<p>
+	<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/r6z1wmpJC78" width="560"></iframe></p>
+</section>
+<section id="upsell_cross_selling">
+	<div class="page-header"><h3>Upsell & Cross-selling</h3><hr class="notop"></div>
+<p>
+	<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/TqFwYSdiXxA" width="560"></iframe></p>
+</section>
+<section id="product_page_metafield">
+	<div class="page-header"><h3>Product page & metafield</h3><hr class="notop"></div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3-SmP8b9wbI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></section>
+<section id="collection_page_filter">
+	<div class="page-header"><h3>Collection page & filter</h3><hr class="notop"></div>
+<p>
+	<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/e7r1BNWYdZg" width="560"></iframe></p>
+</section>
+<section id="blog_article">
+	<div class="page-header"><h3>Blog & article</h3><hr class="notop"></div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WkA0yjyXo74" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></section>
+
+	</div>
+</body>
+</html>
